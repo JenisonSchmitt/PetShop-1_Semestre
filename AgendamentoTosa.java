@@ -1,29 +1,18 @@
-public class AgendamentoTosa extends AgendamentoBanho {
+package A3;
 
-	private Double valor;
-	private String tipoTosa;
+public class AgendamentoTosa extends AgendamentoPet {
+
+	private int valortosa;
 	
-	AgendamentoTosa (Double valor, String tipoTosa) {
-		this.valor = valor;
-		this.tipoTosa = tipoTosa;
-	
+	AgendamentoTosa(){
 	}
-
-	public Double getValor() {
-		return valor;
+	AgendamentoTosa (int valortosa, String tosa) {
+		this.valortosa = valortosa;
 	}
-
-	public void setValor(Double valor) {
-		this.valor = valor;
+	public int getvalortosa() {
+		return valortosa;
 	}
-
-	public String getTipoTosa() {
-		return tipoTosa;
+	public void setvalortosa(int string) {
+		this.valortosa = string;
 	}
-
-	public void setTipoTosa(String tipoTosa) {
-		this.tipoTosa = tipoTosa;
-	}
-	
-	
 }
